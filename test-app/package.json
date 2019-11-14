@@ -21,7 +21,7 @@
     "@dojo/cli": "^6.0.0",
     "@dojo/framework": "^6.0.0",
     "@fortawesome/fontawesome-free": "5.3.1",
-    "tslib": "~1.9.1",
+    "tslib": "~1.10.0",
     "typescript": "~3.4.5"
   },
   "devDependencies": {
