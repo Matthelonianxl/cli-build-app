@@ -22,7 +22,7 @@
     "@dojo/framework": "^6.0.0",
     "@fortawesome/fontawesome-free": "5.3.1",
     "tslib": "~1.9.1",
-    "typescript": "~3.4.5"
+    "typescript": "~3.7.2"
   },
   "devDependencies": {
     "shx": "0.2.2"
