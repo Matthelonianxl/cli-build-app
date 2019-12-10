@@ -111,7 +111,7 @@
     "clean-webpack-plugin": "1.0.0",
     "cli-columns": "3.1.2",
     "compression": "1.7.4",
-    "compression-webpack-plugin": "2.0.0",
+    "compression-webpack-plugin": "3.0.1",
     "connect-history-api-fallback": "1.5.0",
     "connect-inject": "0.4.0",
     "css-loader": "1.0.1",
