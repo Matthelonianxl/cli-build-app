@@ -13,7 +13,9 @@
     "build:dev:pwa": "dojo build --dojorc .dojorc-dev-pwa",
     "build:dist:pwa:evergreen": "dojo build --dojorc .dojorc-dist-pwa-evergreen",
     "build:dev:pwa:evergreen": "dojo build --dojorc .dojorc-dev-pwa-evergreen",
-    "build:test": "dojo build --mode test"
+    "build:test": "dojo build --mode test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -22,9 +24,11 @@
     "@dojo/framework": "^6.0.0",
     "@fortawesome/fontawesome-free": "5.3.1",
     "tslib": "~1.9.1",
-    "typescript": "~3.4.5"
+    "typescript": "~3.4.5",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "shx": "0.2.2"
-  }
+  },
+  "snyk": true
 }
