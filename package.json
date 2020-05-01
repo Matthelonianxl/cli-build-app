@@ -41,7 +41,9 @@
     "test": "run-s build artifact:package artifact:install build intern artifact:build:* test:cypress",
     "uploadCoverage": "codecov --file=coverage/coverage.json",
     "watch:ts": "dojo-tsc-watcher -p tsconfig.json -- dojo-package",
-    "watch": "run-p watch:ts \"build:static:** -- --watch\""
+    "watch": "run-p watch:ts \"build:static:** -- --watch\"",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -159,6 +161,8 @@
     "webpack-manifest-plugin": "2.0.4",
     "webpack-mild-compile": "3.3.1",
     "webpack-pwa-manifest": "3.7.1",
-    "wrapper-webpack-plugin": "2.0.0"
-  }
+    "wrapper-webpack-plugin": "2.0.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
