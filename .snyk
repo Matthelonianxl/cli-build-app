@@ -1,0 +1,113 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - '@dojo/webpack-contrib > puppeteer > https-proxy-agent':
+        patched: '2020-05-24T04:11:43.472Z'
+  SNYK-JS-LODASH-567746:
+    - '@dojo/webpack-contrib > lodash':
+        patched: '2020-05-24T04:11:43.472Z'
+    - html-webpack-plugin > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - webpack-manifest-plugin > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - '@dojo/webpack-contrib > filter-css > lodash':
+        patched: '2020-05-24T04:11:43.472Z'
+    - '@dojo/webpack-contrib > istanbul-lib-instrument > babel-types > lodash':
+        patched: '2020-05-24T04:11:43.472Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - '@dojo/webpack-contrib > istanbul-lib-instrument > babel-generator > lodash':
+        patched: '2020-05-24T04:11:43.472Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - '@dojo/webpack-contrib > istanbul-lib-instrument > babel-traverse > lodash':
+        patched: '2020-05-24T04:11:43.472Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - '@dojo/webpack-contrib > istanbul-lib-instrument > babel-template > lodash':
+        patched: '2020-05-24T04:11:43.472Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - '@dojo/webpack-contrib > istanbul-lib-instrument > babel-generator > babel-types > lodash':
+        patched: '2020-05-24T04:11:43.472Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - '@dojo/webpack-contrib > istanbul-lib-instrument > babel-traverse > babel-types > lodash':
+        patched: '2020-05-24T04:11:43.472Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - '@dojo/webpack-contrib > istanbul-lib-instrument > babel-template > babel-types > lodash':
+        patched: '2020-05-24T04:11:43.472Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - '@dojo/webpack-contrib > istanbul-lib-instrument > babel-template > babel-traverse > lodash':
+        patched: '2020-05-24T04:11:43.472Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - '@dojo/webpack-contrib > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2020-05-24T04:11:43.472Z'
+    - istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - css-loader > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - http-proxy-middleware > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - brotli-webpack-plugin > async > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > table > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/generator > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-24T04:11:43.472Z'
