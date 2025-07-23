@@ -110,7 +110,7 @@
     "chalk": "2.4.1",
     "clean-webpack-plugin": "1.0.0",
     "cli-columns": "3.1.2",
-    "compression": "1.7.4",
+    "compression": "1.8.1",
     "compression-webpack-plugin": "2.0.0",
     "connect-history-api-fallback": "1.5.0",
     "connect-inject": "0.4.0",
@@ -158,7 +158,7 @@
     "webpack-hot-middleware": "2.24.3",
     "webpack-manifest-plugin": "2.0.4",
     "webpack-mild-compile": "3.3.1",
-    "webpack-pwa-manifest": "3.7.1",
+    "webpack-pwa-manifest": "4.1.1",
     "wrapper-webpack-plugin": "2.0.0"
   }
 }
